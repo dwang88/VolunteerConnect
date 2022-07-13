@@ -1,0 +1,44 @@
+.card {
+    max-width: 70rem;
+    margin: 2rem auto;
+}
+
+.title {
+    text-align: center;
+    margin: .5rem 0 0 0;
+}
+
+.bodyText {
+    margin: 1.5rem 0 0 0;
+}
+
+.button {
+    margin: 1.5rem 0 0 0;
+    text-align: center;
+}
+
+.icons {
+    text-align: right;
+}
+
+.iconsList {
+    display: inline;
+    gap: 5rem;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+}
+
+li:hover {
+    opacity: 70%;
+}
+
+.image {
+    display: block;
+    max-width: 20rem;
+    height: auto;
+    margin: auto 1rem auto 1rem;
+}
