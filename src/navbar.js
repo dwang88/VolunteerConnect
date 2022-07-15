@@ -8,6 +8,7 @@ export default function Navbar() {
             <ul className="pages">
                 <li><CustomLink to="/volunteer">Volunteer</CustomLink></li>
                 <li><CustomLink to="/internships">Internships</CustomLink></li>
+                <li><CustomLink to="/events">Events</CustomLink></li>
             </ul>
             <ul className="actions">
                 <li className="signup"><CustomLink to="/signUp" style={{color: "#fff" }}>Sign Up</CustomLink></li>

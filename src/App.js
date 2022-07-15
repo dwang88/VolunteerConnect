@@ -7,6 +7,7 @@ import Volunteer from './pages/Volunteer';
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import Home from "./pages/Home";
+import Events from "./pages/Events";
 
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/internships" element={<Internships />} />
           <Route path="/volunteer" element={<Volunteer />} />
+          <Route path="/events" element={<Events />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
       </Routes>

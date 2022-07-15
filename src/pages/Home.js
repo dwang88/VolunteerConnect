@@ -9,7 +9,7 @@ export default function Home() {
         <div className='columns'>
             <div className='one'>
                 <Box>
-                <h2>All your local and online opportunites in one place</h2>
+                <h2>All your local and online opportunities in one place</h2>
                 <Button sx={{textTransform: 'none', marginLeft: "5rem", marginTop: "3rem", height: "3.5rem"}} className="start" variant="contained" endIcon={<ArrowForwardIos />} component={Link} to="/signUp">Get Started</Button>
                 </Box>
             </div>

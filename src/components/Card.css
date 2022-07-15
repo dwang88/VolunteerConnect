@@ -4,34 +4,54 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
 }
 
+.content {
+    padding: 0 !important; 
+    margin: 0 !important;
+}
+
 .title {
     text-align: center;
-    margin: .5rem 0 0 0;
+    margin: 1rem 0 0 0;
     font-weight: 700 !important;
 }
 
 .bodyText {
-    margin: 1.5rem 0 0 0;
+    margin: 1.5rem 0;
 }
 
 .button {
-    margin: 1.5 rem auto auto auto;
+    margin: auto 0;
     text-align: center;
 }
 
 .icons {
     text-align: right;
+    display: inline;
+    padding: 10px;
+    gap: 5rem;
 }
 
 .iconsList {
-    display: inline;
-    gap: 5rem;
+    display: inline-flex;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
 }
 
 li {
     text-decoration: none;
     list-style: none;
-    display: inline;
+}
+
+.icon {
+    word-spacing: 5rem;
+    padding-right: .1rem;
 }
 
 li:hover {
