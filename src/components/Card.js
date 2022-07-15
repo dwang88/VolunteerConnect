@@ -9,7 +9,7 @@ import '../components/Card.css';
 
 export default function Card({component, height, image, alt, title, body, button}) {
   return (
-    <MuiCard className="card" style={{ border: "none", boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px', display: 'flex'}}>
+    <MuiCard className="card" style={{ border: "none", display: 'flex'}}>
         <CardMedia 
         component={component}
         height={height}
@@ -18,7 +18,7 @@ export default function Card({component, height, image, alt, title, body, button
         className="image">
         </CardMedia>
         
-      <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', boxShadow: "0 0.0625rem 0.1875rem 0 var(--shadow-with-opacity)" }}>
         <CardContent className="content">
         <Box className="title">
         <Typography variant='h5'>{title}</Typography>

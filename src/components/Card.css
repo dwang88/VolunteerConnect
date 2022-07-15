@@ -1,11 +1,13 @@
 .card {
     max-width: 70rem;
     margin: 2rem auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
 }
 
 .title {
     text-align: center;
     margin: .5rem 0 0 0;
+    font-weight: 700 !important;
 }
 
 .bodyText {
@@ -13,7 +15,7 @@
 }
 
 .button {
-    margin: 1.5rem 0 0 0;
+    margin: 1.5 rem auto auto auto;
     text-align: center;
 }
 
@@ -41,4 +43,12 @@ li:hover {
     max-width: 20rem;
     height: auto;
     margin: auto 1rem auto 1rem;
+}
+
+p {
+    font-weight: 500 !important;
+}
+
+h5 {
+    font-weight: 600 !important;
 }

@@ -5,12 +5,12 @@ export default function Navbar() {
         <nav className="nav">
             <Link to="/" className="site-title">Volunteer Connect</Link>
             <ul className="pages">
-                <CustomLink to="/volunteer">volunteer</CustomLink>
-                <CustomLink to="/internships">internships</CustomLink>
+                <li><CustomLink to="/volunteer">Volunteer</CustomLink></li>
+                <li><CustomLink to="/internships">Internships</CustomLink></li>
             </ul>
             <ul className="actions">
-                <CustomLink to="/signUp">Sign Up</CustomLink>
-                <CustomLink to="/login">Login</CustomLink>
+                <li className="signup"><CustomLink to="/signUp" style={{color: "#fff" }}>Sign Up</CustomLink></li>
+                <li><CustomLink to="/login">Login</CustomLink></li>
             </ul>
         </nav>
     )

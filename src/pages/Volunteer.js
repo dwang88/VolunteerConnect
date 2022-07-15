@@ -1,5 +1,5 @@
 export default function Volunteer() {
     return(
-     <h1>volunteer</h1>
+     <h1>Volunteer Opportunities</h1>
     )
  }
