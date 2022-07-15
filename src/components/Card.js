@@ -27,7 +27,7 @@ export default function Card({component, height, image, alt, title, body, button
         <Typography variant='body2'>{body}</Typography>
         </Box>
         <Box className='button'>
-        <Button variant="contained">{button}</Button>
+        <Button variant="contained" sx={{textTransform: 'none', position: "absolute"}}>{button}</Button>
         </Box>
         <Box className='icons'>
         <ul className='iconsList'>

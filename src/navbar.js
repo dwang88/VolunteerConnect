@@ -4,7 +4,7 @@ import longlogo from '../src/logolong.png';
 export default function Navbar() {
     return (
         <nav className="nav">
-            <Link to="/" className="site-title"><img src={longlogo} style={{height: "4rem", marginTop: "4px"}}/></Link>
+            <Link to="/home" className="site-title"><img src={longlogo} style={{height: "4rem", marginTop: "4px"}}/></Link>
             <ul className="pages">
                 <li><CustomLink to="/volunteer">Volunteer</CustomLink></li>
                 <li><CustomLink to="/internships">Internships</CustomLink></li>

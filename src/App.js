@@ -6,6 +6,8 @@ import Internships from "./pages/Internships";
 import Volunteer from './pages/Volunteer';
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
+import Home from "./pages/Home";
+
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 export default function App() {
@@ -14,6 +16,7 @@ export default function App() {
     <BrowserRouter>
       <Navbar/>
       <Routes>
+          <Route path="/home" element={<Home />} />
           <Route path="/internships" element={<Internships />} />
           <Route path="/volunteer" element={<Volunteer />} />
           <Route path="/login" element={<Login />} />

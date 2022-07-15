@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 50% 50%;	
+    margin: 5rem;
+    gap: 3rem;
+}
+
+.one {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+
+.two {
+    display: grid;
+    grid-template-columns: 50% 50%;	
+    gap: 2rem;
+    margin-left: -5rem;
+    margin-right: 7rem;
+    margin-top: 3rem;
+}
+
+h2 {
+    font-size: 64px;
+    margin-right: 14rem;
+    margin-left: 5rem;
+    font-weight: 900;
+}
+
+.start {
+    margin: 0 auto;
+}
+
+.homecard {
+    text-align: center;
+    padding: 20% 0;
+    border-radius: none !important;
+    box-shadow: none !important;
+    font-weight: 700 !important;
+    font-size: 24px;
+    height: 15rem;
+}
+
+.homeicon {
+    transform: scale(2);
+    margin-top: 2rem;
+}
+
+#money {
+    background-color: lightgreen;
+}
+
+#skills {
+    background-color: lightskyblue;
+}
+
+#build {
+    background-color: orange;
+}
+
+#xp {
+    background-color: lightpink;
+}
+
+@media (max-width: 1300px) {
+    .columns {
+        grid-template-columns: repeat(1, 1fr); 
+        margin: 0 auto;
+    }
+
+    .homecard {
+        text-align: center;
+        padding: 20% 0;
+        border-radius: none !important;
+        box-shadow: none !important;
+        font-weight: 700 !important;
+        font-size: 24px;
+        max-height: 15rem;
+    }
+
+    .two {
+        display: grid;
+        grid-template-columns: 50% 50%;	
+        gap: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 3rem;
+    }
+  }
+  
