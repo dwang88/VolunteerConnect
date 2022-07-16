@@ -16,7 +16,8 @@
 }
 
 .bodyText {
-    margin: 1.5rem 0;
+    padding: 1.5rem;
+
 }
 
 .button {
@@ -60,9 +61,10 @@ li:hover {
 
 .image {
     display: block;
-    max-width: 20rem;
+    max-width: 15rem;
     height: auto;
     margin: auto 1rem auto 1rem;
+    padding: 1rem;
 }
 
 p {
