@@ -13,7 +13,8 @@ export default function Volunteer() {
     title="Robotics For All Student Teacher" 
     body="Robotics for All is a 501(c)(3) non-profit organization that is dedicated to spread STEAM and Robotics education across the world! We target underprivileged communities that don't get equal access to Robotics and STEAM as other communities. Our team helps kids learn STEAM and Robotics globally while having funn! If you are interested in volunteer roles available in the field of STEAM and Robotics, you will be a perfect fit."
     button="Learn More"
-    buttonlink="www.roboticsforall.us">
+    buttonlink="www.roboticsforall.us"
+    tags={["online", "stem"]}>
     </Card>
 
     <Card
@@ -24,7 +25,8 @@ export default function Volunteer() {
     title="Astroteens Research Team" 
     body="A student-led 501(c)(3) non profit organization, Astroteens is started to create a community of like minded people who share a common interest in astronomy and its related discipline to learn and explore the universe beyond the Earth’s atmosphere. We at Astroteens give the future a voice. We give students passionate about astronomy and its related discipline an opportunity to express their creativity, ideas and issues that are important to them. In our community all astrophiles can participate in some way or another, be it research or guidance from our mentors."
     button="Learn More"
-    buttonlink="https://www.astroteens259.com/">
+    buttonlink="https://www.astroteens259.com/"
+    tags={["online", "stem"]}>
     </Card>
 
     <Card
@@ -35,7 +37,9 @@ export default function Volunteer() {
     title="Medvocate Volunteer" 
     body="Members of Medvocate have a plethora of enriching programs to choose from and can delve right into leadership, mentorship, and community service on day one. Our growing online community is a way for members to network with one another, and is a place for stimulating conversations in regards to advancements in healthcare. 
     At Medvocate, we are providing the necessary resources for pre-health students to succeed in competitive professional programs. Now is your chance to become a leader and create a change in your community so what are you waiting for? Join today!"
-    button="Learn More">
+    button="Learn More"
+    buttonlink="https://www.imedvocate.org/"
+    tags={["online", "stem"]}>
     </Card>
     </div>
     )

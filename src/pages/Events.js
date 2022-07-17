@@ -12,7 +12,8 @@ export default function Events() {
     title="Climate Science Olympiad" 
     body="ClimateScience is a global charity led by hundreds of driven volunteers from 30 countries and a small team of staff. The 2022 Climate Science Olympiad is a student competition to find solutions to climate change. Already in over 100 countries.
     Participate on your own or in a team of two, and compete against youths from around the world to find solutions to climate change. The top 10 teams will win a share of the $15,000 prize pool."
-    button="Learn More">
+    button="Learn More"
+    tags={["paid", "online", "stem"]}>
     </Card>
     <Card
     component="img" 
@@ -21,7 +22,8 @@ export default function Events() {
     alt="image" 
     title="Inspire2Dev Hackathon" 
     body="Our free, one-day Hackathon is a great opportunity for all 6th-9th grade students to collaborate with their peers and put their creative brains together to develop cool projects! Everyone will have access to our helpful STEM mentors and will meet wonderful speakers in the STEM Field! Keep it cool, have fun!"
-    button="Learn More">
+    button="Learn More"
+    tags={["online", "stem"]}>
     </Card>
 
     </div>
